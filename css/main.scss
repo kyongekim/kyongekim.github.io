@@ -40,6 +40,7 @@ html {
 
 section {
     padding: 20px 50px;
+    margin-bottom: 30px;
 }
 
 .box {
@@ -150,7 +151,7 @@ header {
 
     li {
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 25px;
         font-size: 130%;
     }
 
@@ -185,7 +186,40 @@ header {
 
   p {
     width: 250px;
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
+    word-spacing: 1px;
   }
+}
+
+// ------------------------------------------------- //
+// ------------------- PARALLAX ------------------- //
+// ------------------------------------------------- //
+.parallax {
+  height: 200px;
+
+  p {
+    color: white;
+  }
+}
+
+#first-suit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/dress.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#second-rack {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/rack.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#third-spool {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/spool.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

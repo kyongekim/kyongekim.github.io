@@ -22,7 +22,8 @@ html {
   margin: 0 auto; }
 
 section {
-  padding: 20px 50px; }
+  padding: 20px 50px;
+  margin-bottom: 30px; }
 
 .box {
   padding: 1%; }
@@ -102,7 +103,7 @@ header {
   letter-spacing: 3px; }
   .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 25px;
     font-size: 130%; }
   .main-nav a:link, .main-nav a:visited {
     text-decoration: none;
@@ -124,7 +125,31 @@ header {
   margin-bottom: 15px; }
 .about p {
   width: 250px;
-  text-align: center;
-  margin: 0 auto; }
+  text-align: justify;
+  margin: 0 auto;
+  word-spacing: 1px; }
+
+.parallax {
+  height: 200px; }
+  .parallax p {
+    color: white; }
+
+#first-suit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/dress.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+#second-rack {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/rack.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+#third-spool {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/spool.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=main.css.map */
