@@ -22,7 +22,7 @@ html {
   margin: 0 auto; }
 
 section {
-  padding: 50px; }
+  padding: 20px 50px; }
 
 .box {
   padding: 1%; }
@@ -76,16 +76,30 @@ header {
   background-attachment: fixed; }
 
 .hero-text-box {
-  width: 400px;
-  display: block;
   margin: 0 auto;
   text-align: center;
-  color: #fff; }
+  font-size: 90%;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  width: 400px;
+  text-transform: uppercase; }
+  .hero-text-box h1 {
+    letter-spacing: 4px; }
+  .hero-text-box p {
+    letter-spacing: 1px; }
+  .hero-text-box .day {
+    margin-bottom: 0; }
+  .hero-text-box .time {
+    font-size: 90%; }
 
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 30px; }
+  margin-top: 30px;
+  letter-spacing: 3px; }
   .main-nav li {
     display: inline-block;
     margin-left: 40px;
@@ -95,10 +109,22 @@ header {
     text-transform: uppercase;
     color: #fff;
     font-size: 90%;
-    border-bottom: 3px solid transparent;
-    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    padding: 6px 0;
     transition: border-bottom 0.2s; }
   .main-nav a:hover, .main-nav a:active {
-    border-bottom: 3px solid #66A182; }
+    border-bottom: 2px solid #66A182; }
+
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px; }
+.about p {
+  width: 250px;
+  text-align: center;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
