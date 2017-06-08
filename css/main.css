@@ -154,4 +154,8 @@ header {
   display: block;
   margin: 0 auto; }
 
+.contact-us iframe {
+  width: 100%;
+  min-height: 1200px; }
+
 /*# sourceMappingURL=main.css.map */
