@@ -22,19 +22,11 @@ html {
   margin: 0 auto; }
 
 section {
-  padding: 20px 50px;
+  padding: 10px 50px;
   margin-bottom: 30px; }
 
 .box {
   padding: 1%; }
-
-.long-copy {
-  line-height: 145%;
-  width: 70%;
-  margin-left: 15%;
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 110%; }
 
 h1,
 h2,
@@ -62,11 +54,11 @@ h2 {
     content: " ";
     width: 200px;
     margin: 0 auto;
-    margin-top: 20px; }
+    margin-top: 10px; }
 
 h3 {
   font-size: 110%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: center; }
 
 header {
@@ -90,7 +82,8 @@ header {
   .hero-text-box h1 {
     letter-spacing: 4px; }
   .hero-text-box p {
-    letter-spacing: 1px; }
+    line-height: 120%;
+    font-size: 120%; }
   .hero-text-box .day {
     margin-bottom: 0; }
   .hero-text-box .time {
@@ -151,5 +144,9 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+
+.services p {
+  max-width: 500px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

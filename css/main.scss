@@ -39,7 +39,7 @@ html {
 }
 
 section {
-    padding: 20px 50px;
+    padding: 10px 50px;
     margin-bottom: 30px;
 }
 
@@ -47,17 +47,6 @@ section {
     padding: 1%;
 }
 
-
-// ------------------- PARAGRAPHS ------------------- //
-
-.long-copy {
-    line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 110%;
-}
 
 // ------------------------------------------------- //
 // ------------------- HEADINGS ------------------- //
@@ -92,13 +81,13 @@ h2 {
         content: " ";
         width: 200px;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
 h3 {
     font-size: 110%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -131,7 +120,8 @@ header {
   }
 
   p {
-    letter-spacing: 1px;
+    line-height: 120%;
+    font-size: 120%;
   }
 
   .day {
@@ -222,4 +212,11 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.services {
+  p {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }
