@@ -142,7 +142,7 @@ header {
     li {
         display: inline-block;
         margin-left: 25px;
-        font-size: 130%;
+        font-size: 110%;
     }
 
     a {
@@ -217,6 +217,14 @@ header {
 .services {
   p {
     max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+.our-community {
+  img {
+    height: 130px;
+    display: block;
     margin: 0 auto;
   }
 }

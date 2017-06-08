@@ -97,7 +97,7 @@ header {
   .main-nav li {
     display: inline-block;
     margin-left: 25px;
-    font-size: 130%; }
+    font-size: 110%; }
   .main-nav a:link, .main-nav a:visited {
     text-decoration: none;
     text-transform: uppercase;
@@ -147,6 +147,11 @@ header {
 
 .services p {
   max-width: 500px;
+  margin: 0 auto; }
+
+.our-community img {
+  height: 130px;
+  display: block;
   margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
