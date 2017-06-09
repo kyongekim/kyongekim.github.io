@@ -8,7 +8,7 @@ html {
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 30px;
   text-rendering: optimizeLegibility; }
 
 .container-fluid {
@@ -27,6 +27,9 @@ section {
 
 .box {
   padding: 1%; }
+
+p {
+  font-size: 130%; }
 
 h1,
 h2,
@@ -83,11 +86,10 @@ header {
     letter-spacing: 4px; }
   .hero-text-box p {
     line-height: 120%;
-    font-size: 120%; }
+    font-size: 120%;
+    letter-spacing: 1px; }
   .hero-text-box .day {
     margin-bottom: 0; }
-  .hero-text-box .time {
-    font-size: 90%; }
 
 .main-nav {
   float: right;
@@ -115,12 +117,15 @@ header {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  border: 1px solid #66A182; }
 .about p {
   width: 250px;
-  text-align: justify;
+  text-align: center;
   margin: 0 auto;
   word-spacing: 1px; }
+.about h3 {
+  margin-top: 10px; }
 
 .parallax {
   height: 200px; }
@@ -157,5 +162,20 @@ header {
 .contact-us iframe {
   width: 100%;
   min-height: 1200px; }
+
+.services div {
+  text-align: center; }
+.services p {
+  margin-bottom: 20px; }
+.services i {
+  font-size: 500%;
+  color: #66A182; }
+.services .ion-ios-snowy:before {
+  transform: scale(1.6); }
+.services h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -18,7 +18,7 @@ html {
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 30px;
     text-rendering: optimizeLegibility;
 }
 
@@ -47,6 +47,9 @@ section {
     padding: 1%;
 }
 
+p {
+  font-size: 130%;
+}
 
 // ------------------------------------------------- //
 // ------------------- HEADINGS ------------------- //
@@ -122,14 +125,11 @@ header {
   p {
     line-height: 120%;
     font-size: 120%;
+    letter-spacing: 1px;
   }
 
   .day {
     margin-bottom: 0;
-  }
-
-  .time {
-    font-size: 90%;
   }
 }
 
@@ -172,13 +172,18 @@ header {
     display: block;
     margin: 0 auto;
     margin-bottom: 15px;
+    border: 1px solid $primary-color;
   }
 
   p {
     width: 250px;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
     word-spacing: 1px;
+  }
+
+  h3 {
+    margin-top: 10px;
   }
 }
 
@@ -233,5 +238,29 @@ header {
   iframe {
     width: 100%;
     min-height: 1200px;
+  }
+}
+
+.services {
+  div {
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  i {
+    font-size: 500%;
+    color: $primary-color;
+  }
+
+  .ion-ios-snowy:before { transform: scale(1.6); }
+
+  h4 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
   }
 }
