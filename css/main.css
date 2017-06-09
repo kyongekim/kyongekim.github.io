@@ -128,9 +128,13 @@ header {
   margin-top: 10px; }
 
 .parallax {
-  height: 200px; }
+  height: 200px;
+  vertical-align: middle; }
   .parallax p {
-    color: white; }
+    color: white;
+    max-width: 500px;
+    display: block;
+    margin: auto; }
 
 #first-suit {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/dress.jpg);

@@ -192,9 +192,13 @@ header {
 // ------------------------------------------------- //
 .parallax {
   height: 200px;
+  vertical-align: middle;
 
   p {
     color: white;
+    max-width: 500px;
+    display: block;
+    margin: auto;
   }
 }
 
