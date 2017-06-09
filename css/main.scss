@@ -220,33 +220,13 @@ header {
 }
 
 .services {
-  p {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-}
-
-.our-community {
-  img {
-    height: 130px;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.contact-us {
-  iframe {
-    width: 100%;
-    min-height: 1200px;
-  }
-}
-
-.services {
   div {
     text-align: center;
   }
 
   p {
+    max-width: 500px;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 
@@ -262,5 +242,31 @@ header {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
+  }
+}
+
+.our-community {
+  img {
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  p {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+}
+
+.contact-us {
+  iframe {
+    width: 100%;
+    min-height: 1200px;
   }
 }
