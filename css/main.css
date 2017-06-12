@@ -207,4 +207,11 @@ header {
     width: 100%;
     height: 300px; }
 
+@media only screen and (max-width: 768px) {
+  #kyong-box {
+    margin-top: 20px; }
+
+  .row div {
+    margin-top: 20px; } }
+
 /*# sourceMappingURL=main.css.map */

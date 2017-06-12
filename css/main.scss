@@ -194,6 +194,8 @@ header {
   h3 {
     margin-top: 10px;
   }
+
+
 }
 
 // ------------------------------------------------- //
@@ -309,4 +311,14 @@ header {
   }
 
   pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #kyong-box {margin-top: 20px}
+
+  .row {
+    div {
+      margin-top: 20px;
+    }
+  }
 }
