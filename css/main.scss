@@ -104,6 +104,14 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+    .scroll {
+      div {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
 }
 
 .hero-text-box {
@@ -124,7 +132,7 @@ header {
 
   p {
     line-height: 120%;
-    font-size: 120%;
+    font-size: 140%;
     letter-spacing: 1px;
   }
 
@@ -176,7 +184,8 @@ header {
   }
 
   p {
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     word-spacing: 1px;
@@ -224,6 +233,12 @@ header {
 }
 
 .services {
+
+  .row {
+    div {
+      min-height: 150px;
+    }
+  }
   div {
     text-align: center;
   }
@@ -273,4 +288,25 @@ header {
     width: 100%;
     min-height: 1200px;
   }
+
+  h4 {
+    margin-bottom: 3px;
+  }
+
+  p {
+    font-size: 120%;
+  }
+}
+
+.our-location {
+  padding: 0;
+  margin-bottom: 0;
+  border-top: 2px solid $primary-color;
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  pointer-events: none;
 }
