@@ -89,6 +89,7 @@ header {
   right: 0;
   top: 30%;
   width: 400px;
+  max-width: 100%;
   text-transform: uppercase; }
   .hero-text-box h1 {
     letter-spacing: 4px; }
