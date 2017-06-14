@@ -311,9 +311,9 @@ header {
   iframe {
     width: 100%;
     height: 300px;
+    pointer-events: none;
   }
 
-  pointer-events: none;
 }
 
 // Breakpoints
