@@ -35,10 +35,10 @@ $('a[href*="#"]')
   }
 });
 
-$('.our-location').click(function () {
+$(".our-location").click(function () {
     $('.our-location iframe').css("pointer-events", "auto");
 });
 
-$( ".our-location" ).mouseleave(function() {
+$(".our-location").mouseleave(function() {
   $('.our-location iframe').css("pointer-events", "none");
 });
