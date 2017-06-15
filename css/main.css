@@ -243,7 +243,7 @@ header {
 
   header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.65))), url(../images/suit.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/rack.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/suit.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
