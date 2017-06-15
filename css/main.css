@@ -152,6 +152,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/dress.jpg);
   background-position: center;
   background-attachment: fixed;
+  background-size: contain;
   width: 100%;
 }
 
@@ -160,6 +161,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/rack.jpg);
   background-position: center;
   background-attachment: fixed;
+  background-size: contain;
   width: 100%;
 }
 
@@ -168,6 +170,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/spool.jpg);
   background-position: center;
   background-attachment: fixed;
+  background-size: contain;
   width: 100%;
 }
 
@@ -236,10 +239,6 @@ header {
   .contact-us {
     display: block;
     margin: 0 auto;
-  }
-
-  header {
-    width: 100%;
   }
 
 }
