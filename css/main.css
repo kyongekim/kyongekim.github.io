@@ -228,4 +228,10 @@ header {
     margin-top: 20px; }
 
   .row div {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+
+  .contact-us {
+    padding 10px 0;
+  }
+
+}
