@@ -152,7 +152,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/dress.jpg);
   background-position: center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
 }
 
@@ -161,7 +161,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/rack.jpg);
   background-position: center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
 }
 
@@ -170,7 +170,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url(../images/spool.jpg);
   background-position: center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
 }
 
