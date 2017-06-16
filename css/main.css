@@ -123,6 +123,13 @@ header {
   .main-nav a:hover, .main-nav a:active {
     border-bottom: 2px solid #66A182; }
 
+.sticky li a:link,
+.sticky li a:visited {
+  padding: 8px 0;
+  color: #555;
+
+}
+
 .about img {
   width: 150px;
   height: 150px;
