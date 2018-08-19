@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "friendlycleaners-3eb76"
+  }
+}
